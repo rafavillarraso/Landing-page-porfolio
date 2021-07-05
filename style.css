@@ -1,7 +1,28 @@
+@font-face { 
+    font-family: Sharp; src: url('/SharpGrotesk-Medium20.otf'); 
+} 
 .container-fluid {
     max-width: 1200px;
   }
 
 #cta-section1 {
-    padding: 10px;
+    padding-top: 30px;
+}
+
+header {
+    background-color: black;
+    min-height: 70px;
+}
+
+h3, h4 {
+    font-family: Sharp;
+}
+/* Overwriting bootstrap button style */ 
+.btn {
+    margin-right: 1em !important;
+    margin-bottom: 1em !important;
+}
+.btn-primary {
+    background-color: black !important;
+    border-color: black !important;
 }
