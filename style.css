@@ -1,6 +1,8 @@
-@font-face { 
-    font-family: Sharp; src: url('/SharpGrotesk-Medium20.otf'); 
-} 
+@font-face {
+    font-family: sharp;
+    src: url(/fonts/SharpGrotesk-Medium20.otf);
+}
+
 .container-fluid {
     max-width: 1200px;
   }
@@ -14,9 +16,6 @@ header {
     min-height: 70px;
 }
 
-h3, h4 {
-    font-family: Sharp;
-}
 /* Overwriting bootstrap button style */ 
 .btn {
     margin-right: 1em !important;
