@@ -1,14 +1,17 @@
 @font-face {
     font-family: sharp;
-    src: url(/fonts/SharpGrotesk-Medium20.otf);
+    src: url(fonts/SharpGrotesk-Medium20.otf);
 }
-
 .container-fluid {
     max-width: 1200px;
   }
 
 #cta-section1 {
-    padding-top: 30px;
+    padding-top: 70px;
+}
+
+#cta-section1 {
+    padding-top: 70px;
 }
 
 header {
@@ -16,12 +19,19 @@ header {
     min-height: 70px;
 }
 
+h3 {
+    font-family: sharp;
+}
 /* Overwriting bootstrap button style */ 
 .btn {
-    margin-right: 1em !important;
+    margin-right: 0.5em !important;
     margin-bottom: 1em !important;
 }
 .btn-primary {
     background-color: black !important;
     border-color: black !important;
+}
+
+#rafa {
+    object-fit:inherit;
 }
