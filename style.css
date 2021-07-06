@@ -5,23 +5,30 @@
 .container-fluid {
     max-width: 1200px;
   }
-
-#cta-section1 {
-    padding-top: 70px;
-}
-
-#cta-section1 {
-    padding-top: 70px;
-}
-
+  
 header {
     background-color: black;
     min-height: 70px;
 }
 
-h3 {
+/* Formateado de la sección 1*/ 
+
+#cta-section1 {
+    padding-top: 70px;
+}
+
+#cta-section1 {
+    padding-top: 70px;
+}
+
+h3, h2 {
     font-family: sharp;
 }
+#rafa {
+    max-width:inherit;
+    height: auto;
+}
+
 /* Overwriting bootstrap button style */ 
 .btn {
     margin-right: 0.5em !important;
@@ -32,8 +39,31 @@ h3 {
     border-color: black !important;
 }
 
-#rafa {
-    max-width: 500px;
-    height: auto;
-    
+/* Formateado de la sección 2*/ 
+#seccion2 {
+    max-height: 300px;
+}
+
+#imagen-zorro {
+    max-width: 450px;
+    max-height: auto;
+    text-align: center;
+    padding-right: 20px;
+}
+
+#fondo-sec2 {
+    background-color: #D9983F;
+}
+
+#texto-sec2 {
+    padding: 30px 10px;
+}
+
+#texto-sec2 h3{
+    color: white;
+    font-size: 1.6em;
+}
+
+#texto-sec2 p{
+    color: white;
 }
