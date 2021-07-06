@@ -11,6 +11,32 @@ header {
     min-height: 70px;
 }
 
+.menu {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.menu ul {
+    align-items: flex-end;
+}
+
+.menu ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 5px 10px;
+    float: right;
+}
+
+.menu ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+#logo {
+    width: 220px;
+    margin-right: 0px;
+}
+
 /* Formateado de la sección 1*/ 
 
 #cta-section1 {
@@ -21,9 +47,10 @@ header {
     padding-top: 70px;
 }
 
-h3, h2 {
+h3, h2, li a {
     font-family: sharp;
 }
+
 #rafa {
     max-width:inherit;
     height: auto;
