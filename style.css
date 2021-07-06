@@ -33,5 +33,7 @@ h3 {
 }
 
 #rafa {
-    object-fit:inherit;
+    max-width: 500px;
+    height: auto;
+    
 }
