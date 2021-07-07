@@ -11,20 +11,26 @@ header {
     min-height: 70px;
 }
 
-.menu {
+#navbar-content {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
     margin-top: auto;
     margin-bottom: auto;
 }
 
 .menu ul {
-    align-items: flex-end;
+    margin: 0px 0px;
 }
 
 .menu ul li {
     list-style-type: none;
-    display: inline;
-    padding: 5px 10px;
-    float: right;
+    display: inline-block;
+    padding: 5px 20px;
+    text-align: center;
 }
 
 .menu ul li a {
@@ -39,12 +45,19 @@ header {
 
 /* Formateado de la sección 1*/ 
 
+#cta-section {
+    display: flex;
+    justify-content: center;
+}
 #cta-section1 {
     padding-top: 70px;
+    padding: 2rem;
 }
 
-#cta-section1 {
-    padding-top: 70px;
+#cta-section2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 h3, h2, li a {
