@@ -81,14 +81,15 @@ h3, h2, li a {
 
 /* Formateado de la sección 2*/ 
 #seccion2 {
-    max-height: 300px;
+    max-height: fit-content;
+    justify-content: center;
 }
 
 #imagen-zorro {
-    max-width: 450px;
+    max-width:inherit;
     max-height: auto;
-    text-align: center;
-    padding-right: 20px;
+    align-items: center;
+    margin: 0 auto;
 }
 
 #fondo-sec2 {
@@ -96,7 +97,9 @@ h3, h2, li a {
 }
 
 #texto-sec2 {
-    padding: 30px 10px;
+    padding: 30px 30px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 #texto-sec2 h3{
