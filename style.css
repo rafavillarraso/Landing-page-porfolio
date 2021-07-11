@@ -93,7 +93,7 @@ h4, h3, h2, li a {
 }
 
 #fondo-sec2 {
-    background-color: #D9983F;
+    background-color: #E2B16E;
 }
 
 #texto-sec2 {
@@ -123,9 +123,47 @@ h4, h3, h2, li a {
     border-style: solid;
     border-width: 1px;
     border-radius: 1em;
+    border-color: gray;
     margin-right: 20px;
 }
 
 .contenido-past {
     padding: 30px;
+}
+
+/* Formateado de la seccion 4 */
+#contenido-sec4 {
+    justify-content: center;
+}
+#textos-seccion4 {
+    text-align: center;
+}
+
+#buho {
+    justify-content: center;
+}
+
+/* Formateado de la seccion 5 */
+#section5 {
+    justify-content: center;
+}
+.point4 {
+    text-align: center;
+}
+
+.punto-color {
+    font-family: sharp;
+    font-size: 2rem;
+    background-color: #E2B16E;
+    border-radius: 50%;
+    padding: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    max-width: 3.6rem;
+}
+
+.texto-punto {
+    padding: 20px;
 }
