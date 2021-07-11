@@ -51,7 +51,7 @@ nav {
 }
 #cta-section1 {
     padding-top: 70px;
-    padding: 2rem;
+
 }
 
 #cta-section2 {
@@ -60,7 +60,7 @@ nav {
     justify-content: center;
 }
 
-h3, h2, li a {
+h4, h3, h2, li a {
     font-family: sharp;
 }
 
@@ -109,4 +109,23 @@ h3, h2, li a {
 
 #texto-sec2 p{
     color: white;
+}
+
+/* Formateado de los servicios */
+#servicios {
+    display: flex;
+    justify-content:center;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.pastilla {
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 1em;
+    margin-right: 20px;
+}
+
+.contenido-past {
+    padding: 30px;
 }
