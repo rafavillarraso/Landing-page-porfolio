@@ -167,3 +167,29 @@ h4, h3, h2, li a {
 .texto-punto {
     padding: 20px;
 }
+
+/* Formateado de la seccion formulario */
+#sec6 {
+    margin-top: 2rem;
+}
+
+#sec6 .row {
+    justify-content: center;
+}
+
+#sec6 p, #sec6 form, #sec6 form input {
+    text-align: center;
+}
+
+#sec6 input {
+    min-width: 400px;
+    border-top-style:none;
+    border-left-style: none;
+    border-right-style: none;
+    color: gray ;
+    border-bottom-color: gray;
+}
+
+#input2 {
+    margin-top: 1rem;
+}
