@@ -43,7 +43,7 @@ nav {
     margin-right: 0px;
 }
 
-/* Formateado de la sección 1*/ 
+/* Formateado de la cta-section */ 
 
 #cta-section {
     display: flex;
@@ -51,7 +51,12 @@ nav {
 }
 #cta-section1 {
     padding-top: 70px;
+}
 
+#cta-section1 p {
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+    font-size: 1.3rem;
 }
 
 #cta-section2 {
@@ -69,7 +74,7 @@ h4, h3, h2, li a {
     height: auto;
 }
 
-/* Overwriting bootstrap button style */ 
+/* Sobrescribir los estilos de boton de bootstrap */ 
 .btn {
     margin-right: 0.5em !important;
     margin-bottom: 1em !important;
@@ -125,6 +130,12 @@ h4, h3, h2, li a {
     border-radius: 1em;
     border-color: gray;
     margin-right: 20px;
+    transition: all .25s ease-in-out;
+}
+
+.pastilla:hover {
+    box-shadow: 0 0 11px rgba(33,33,33,.2); 
+    transform: scale(1.03);
 }
 
 .contenido-past {
@@ -173,7 +184,7 @@ h4, h3, h2, li a {
     margin-top: 2rem;
 }
 
-#sec6 .row {
+#sec6 .row, form .col-5 {
     justify-content: center;
 }
 
@@ -192,4 +203,9 @@ h4, h3, h2, li a {
 
 #input2 {
     margin-top: 1rem;
+}
+
+form .btn {
+    margin-top: 1.3rem;
+    min-width: 100px;
 }
