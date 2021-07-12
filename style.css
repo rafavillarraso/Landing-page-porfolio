@@ -7,13 +7,22 @@
   }
   
 header {
-    background-color: black;
     min-height: 70px;
+}
+
+#navbar {
+    background-color: black;
 }
 
 #navbar-content {
     display: flex;
     justify-content: space-between;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 nav {
@@ -193,7 +202,7 @@ h4, h3, h2, li a {
 }
 
 #sec6 input {
-    min-width: 400px;
+    min-width: 100%;
     border-top-style:none;
     border-left-style: none;
     border-right-style: none;
