@@ -35,14 +35,14 @@ nav {
     margin: 0px 0px;
 }
 
-.menu ul li {
+.menu ul li, footer ul li {
     list-style-type: none;
     display: inline-block;
     padding: 5px 20px;
     text-align: center;
 }
 
-.menu ul li a {
+.menu ul li a, footer ul li {
     color: white;
     text-decoration: none;
 }
@@ -217,4 +217,26 @@ h4, h3, h2, li a {
 form .btn {
     margin-top: 1.3rem;
     min-width: 100px;
+}
+/* Formateado de la seccion footer */
+footer {
+    background-color: black;
+}
+
+footer ul li, footer p { 
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    font-size: small;
+}
+
+footer p {
+    color: white;
+}
+
+footer div {
+    justify-content: flex-end;
+}
+
+footer ul {
+    text-align: right;
 }
