@@ -59,7 +59,8 @@ nav {
 }
 
 .cerrar {
-    font-size: small;
+    max-width: 1.3rem;
+    height: auto;
 }
 
 /* Formateado de la cta-section */ 
@@ -298,7 +299,7 @@ footer ul {
         justify-content: flex-end;
         padding-right: 2rem;
         padding: 15px !important;
-        transition: all 0.5s;
+        transition: all 0.7s ease-in;
     }
 
     .menu.responsive {
