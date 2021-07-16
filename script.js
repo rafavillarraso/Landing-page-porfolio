@@ -12,3 +12,13 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+// abrirmenu
+function abrirMenu() {
+  var x = document.getElementById("menuBar");
+  if (x.className === "menu") {
+    x.className += " responsive";
+  } else {
+    x.className = "menu";
+  }
+}
