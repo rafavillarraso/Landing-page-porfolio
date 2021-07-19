@@ -63,6 +63,10 @@ nav {
     height: auto;
 }
 
+.espacio {
+    margin-bottom: 2rem;
+}
+
 /* Formateado de la cta-section */ 
 
 #cta-section {
