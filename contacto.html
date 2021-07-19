@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <title>Rafa Villarraso-Contacto</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    </head>
+
+    <body>
+<header>
+   <div id="navbar">
+       <div id="navbar-content" class="container-fluid">
+            <div id="logo" class="navbar-brand">
+                <a href="index.html">
+                <img href="#" src="assets/logo-03.svg"></a>
+            </div>
+            <nav id="menuBar" class="menu">
+                <ul>
+                    <li><a href="#">Porfolio</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Sobre mi</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li><img class="cerrar" onclick="abrirMenu()" src="assets/close.svg"></li>
+                </ul>
+            </nav>
+            <div class="lanzador-menu" onclick="abrirMenu()">Menu</div>
+    </div>
+   </div>
+</header>
+<section class="container-fluid">
+<div class="row" id="contacto">
+<div class="col-md-6 col-10" id="contacto1">
+    <div>
+        <div><h3>Contacta conmigo</h3></div>
+    </div>
+    <p>Pide información o presupuesto sin compromiso en el siguiente formulario. También me encontrarás en el <a href="tel:+34655783119">655783119</a></p>
+    <div class="row">
+        <form action="" class="col-12" name="loginform">
+            <input type="text" value="nombre">
+            <input type="text" value="e-mail">
+            <!-- <input id="input2" type="text" value="Tu consulta">-->
+            <textarea id="input2" type="textarea" value="Tu consulta">Tu consulta</textarea>
+            <p><input type="checkbox" name="terms" onclick="enableSending()">He leído y acepto las condiciones<br></p>
+            <button name="submit" class="btn btn-primary" type="submit" disabled>Enviar</button>
+        </form>
+        <p style="font-size: small;">Información básica sobre protección de datos: Responsable: Rafael Villarraso Boluda. Finalidad: Este formulario recoge los datos mínimos para gestionar consultas, sus datos NO se usarán para prospección comercial. Legitimación: Consentimiento del interesado. Destinatarios: Pilaf Estudio. Derechos: Acceder, rectificar y suprimir los datos, así como otros derechos como se explica en la política de privacidad.</p>
+    </div>
+</div>
+<div class="col-md-6 col-10" id="contacto2">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3108.5492028315944!2d-0.6124840843269245!3d38.81988135911408!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd6177f81a75da55%3A0x59185d7992c125f0!2sCalle%20Padre%20Fernando%20Alcina%2C%201%2C%2046870%20Onteniente%2C%20Valencia!5e0!3m2!1ses!2ses!4v1626707100937!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+</div>
+</section>
+<footer>
+<div class="container-fluid"> 
+    <div class="contenido-footer row">
+        <div class="col-md-3 col-10">
+            <p>2021&copy;rafa villarraso</p>
+        </div>
+        <div class="col-md-8 col-10">
+        <ul>
+            <li>AVISO LEGAL</li>
+            <li>POLÍTICA DE COOKIES</li>
+            <LI>POLÍTICA DE PRIVACIDAD</LI>
+        </ul>
+        </div>
+    </div>
+</div>
+</footer>
+        <script src="script.js"></script>
+    </body>
+</html>

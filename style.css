@@ -257,6 +257,54 @@ footer ul {
     text-align: right;
 }
 
+/* Pagina de contacto */
+
+#contacto {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+}
+#contacto1 {
+    padding-top: 70px;
+}
+
+#contacto1 p {
+    padding-top: 1rem;
+    padding-bottom: 1rem; 
+    font-size: 1.3rem;
+}
+
+#contacto2 {
+    display: flex;
+    justify-content: center;
+    padding-top: 70px;
+}
+
+
+#contacto1 input, textarea {
+    min-width: 100%;
+    border-top-style:none;
+    border-left-style: none;
+    border-right-style: none;
+    color: gray ;
+    border-bottom-color: gray;
+    margin-top: 1rem;
+}
+
+#contacto1 .row p {
+    font-size: small;
+}
+
+#contacto1 .row p input {
+    min-width: 1.5rem;
+}
+
+form .btn {
+    margin-top: 1.3rem;
+    min-width: 100px;
+}
+
+
 /* Media queries */
 
 @media (max-width: 991px) {

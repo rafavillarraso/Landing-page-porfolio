@@ -22,3 +22,8 @@ function abrirMenu() {
     x.className = "menu";
   }
 }
+
+// chequeable formulario
+function enableSending() {
+document.loginform.submit.disabled = !document.loginform.terms.checked;
+}
