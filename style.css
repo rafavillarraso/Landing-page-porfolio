@@ -278,8 +278,8 @@ footer ul {
     display: flex;
     justify-content: center;
     padding-top: 70px;
+    padding-bottom: 20px;
 }
-
 
 #contacto1 input, textarea {
     min-width: 100%;
