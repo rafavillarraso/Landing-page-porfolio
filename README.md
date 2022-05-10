@@ -1,4 +1,4 @@
-# reto1
+# Landing Web Graphic Designer
 Reto 1 para el Bootcamp GeeksHub Academy:
 - Pagina personal de servicios de diseño y desarrollo web con diseño responsive (usando bootstrap, flexbox, y técnicas responsive mediante mediaqueries y breackpoints)
 - Pagina de contacto que incluye el formulario y el mapa.
